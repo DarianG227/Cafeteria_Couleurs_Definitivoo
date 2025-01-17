@@ -1,0 +1,2210 @@
+html {
+    background-color: white;
+}
+
+@media(max-width:575px){
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .cont{
+        margin-top: 80px;
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        color: #f5efeb;
+        font-size: 70px;
+    }
+    
+    .primerDiv{
+        justify-items: center;
+        background-image: url("contactoFoto_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        overflow: hidden;
+    }
+    
+    .preguntaInicio{
+        border-radius: 100px;
+        background-color: #f3efed;
+        padding: 10px 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        color: #2f4155;
+    }
+    
+    body{
+        background-color: #a8cbc092 !important;
+    }
+    
+    .separador{
+        display: flex;
+        width: 100%;
+    }
+    
+    .imgYText{
+        background-color: #f3efed;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 100px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+    
+    .imgRed{
+        width: 20%;
+    }
+    
+    .redes{
+        width: 50%;
+        display: none;
+    }
+
+    .redesPeque{
+        display: flex;
+        width: 100%;
+    }
+    
+    .telefono{
+        width: 50%;
+        display: none;
+        background-color: #f3efed;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-content: end;
+    }
+
+    .telefonoPeque{
+        width: 100%;
+        display: flex;
+        background-color: #f3efed;
+        border-radius: 50px;
+        justify-content: end;
+    }
+    
+    .textRed{
+        width: 80%;
+        font-size: 10px;
+        color: #2f4155;
+        padding-left: 5px;
+        justify-content: end;
+    }
+    
+    .imgTel{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .letritas{
+        font-family: 'Times New Roman', Times, serif;
+        color: #2f4155;
+        font-size: 20px;
+    }
+    
+    .textPDer{
+        width: 70%;
+        justify-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .segundoDiv, .tercerDiv, .ultimoDiv{
+        display: none;
+    }
+
+    .tercerDivPeque{
+        justify-items: center;
+    }
+    
+    .subFinales{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 90px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 11px;
+        color: #f3efed;
+    }
+    
+    .izqMapa{
+        width: 50%;
+        justify-items: center;
+    }
+    
+    .imgMap{
+        width: 45%;
+    }
+
+    .imgMapPeque{
+        width: 90%;
+        margin: 10px 20px;
+    }
+    
+    .renglones{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    
+    .ubi{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #f3efed;
+        display: none;
+    }
+    
+    .izqFinal{
+        background-color: #f3efed;
+        width: 50%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    
+    .linee{
+        border-top: 3px solid #a8cbc092;
+        width: 85%;
+    }
+    
+    .horarioYLinea{
+        justify-items: center;
+    }
+    
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .titIzqu{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 22px;
+        font-weight: bold;
+        color: #2f4155;
+    }
+    
+    .horarios{
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .horariosPri{
+        display: flex;
+        justify-content: end;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 35px;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .derFinal{
+        width: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .renglonesAbajoDer{
+        font-size: 15px;
+        margin: 10px 20px;
+    }
+    
+    /*PARA EL FORMULARIO*/
+    
+    .formu{
+        background-color: #9fc0b502 !important;
+        width: 100%;
+        border: 1px solid black !important;
+    }
+
+    .input-custom {
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        font-size: 1px;
+        transition: all 0.3s ease;
+    }
+    
+    .input-custom:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+    
+    .formu {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    /* FOOTER */
+
+    .foot{
+        /*display: flex !important;*/
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        display: none;
+    }
+
+    .footPeque{
+        background-color: #a8cbc015 !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+    
+    .izq{
+        background-color: #2f4155;
+        width: 42%;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        color: #f5efeb;
+        height: 420px;
+        display: none;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 10px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 25px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        justify-content: space-around;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 10%;
+    }
+
+    .sobreNos{
+        font-size: 25px;
+    }
+
+   /* BARRA DE NAVEGACIÓN */
+.navbar {
+    background-color: #bedbd2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Botón menú hamburguesa */
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #2f4155;
+    display: block; /* Oculto por defecto */
+}
+
+/* Menú desplegable */
+
+/* Estilo visual */
+.nav-menu-style {
+    background-color: #bedbd2de;
+    text-decoration: underline;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/* Diseño y distribución */
+.nav-menu-design {
+    flex-direction: column;
+    width: 60%;
+}
+
+/* Posicionamiento */
+.nav-menu-position {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Comportamiento */
+.nav-menu-behavior {
+    display: none; /* Oculto por defecto en móviles */
+}
+
+.nav-menu.active {
+    display: flex; /* Visible cuando se activa */
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #bedbd2 0%,
+        #bedbd2 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    display: none !important;
+}
+
+.peques{
+    position: sticky !important;
+}
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .cont{
+        margin-top: 100px;
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        color: #f5efeb;
+        font-size: 120px;
+    }
+    
+    .primerDiv{
+        justify-items: center;
+        background-image: url("contactoFoto_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        overflow: hidden;
+    }
+    
+    .preguntaInicio{
+        border-radius: 100px;
+        background-color: #f3efed;
+        padding: 10px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        color: #2f4155;
+    }
+    
+    body{
+        background-color: #a8cbc092 !important;
+    }
+    
+    .separador{
+        display: flex;
+        width: 100%;
+    }
+    
+    .imgYText{
+        background-color: #f3efed;
+        font-family: 'Times New Roman', Times, serif;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+    
+    .imgRed{
+        width: 20%;
+    }
+    
+    .redes{
+        width: 50%;
+    }
+    
+    .telefono{
+        width: 50%;
+        display: flex;
+        background-color: #f3efed;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-content: end;
+    }
+    
+    .textRed{
+        width: 80%;
+        font-size: 30px;
+        color: #2f4155;
+        padding-left: 20px;
+        justify-content: end;
+    }
+    
+    .imgTel{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .letritas{
+        font-family: 'Times New Roman', Times, serif;
+        color: #2f4155;
+        font-size: 22px;
+    }
+    
+    .textPDer{
+        width: 70%;
+        justify-items: center;
+        margin-top: 50px;
+    }
+    
+    .segundoDiv, .tercerDiv, .ultimoDiv{
+        display: flex;
+    }
+    
+    .subFinales{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 220px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        color: #f3efed;
+    }
+    
+    .izqMapa{
+        width: 50%;
+        justify-items: center;
+    }
+    
+    .imgMap{
+        width: 45%;
+    }
+    
+    .renglones{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    .ubi{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #f3efed;
+    }
+    
+    .izqFinal{
+        background-color: #f3efed;
+        width: 50%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    
+    .linee{
+        border-top: 3px solid #a8cbc092;
+        width: 85%;
+    }
+    
+    .horarioYLinea{
+        justify-items: center;
+    }
+    
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .titIzqu{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 22px;
+        font-weight: bold;
+        color: #2f4155;
+    }
+    
+    .horarios{
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .horariosPri{
+        display: flex;
+        justify-content: end;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 35px;
+        font-size: 20px;
+        color: #2f4155;
+    }
+    
+    .derFinal{
+        width: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .renglonesAbajoDer{
+        font-size: 15px;
+    }
+    
+    /*PARA EL FORMULARIO*/
+    
+    .formu{
+        background-color: #d6f5ebda !important;
+        width: 100%;
+    }
+
+    .input-custom {
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        font-size: 1px;
+        transition: all 0.3s ease;
+    }
+    
+    .input-custom:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+    
+    .formu {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    /* FOOTER */
+
+    .foot{
+        display: flex !important;
+        background-color: #a8cbc025;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        border-top: 2px solid black;
+        margin-top: 20px;
+    }
+
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+
+    .mb-3{
+        width: 80% !important;
+        margin: 0px 15px;
+        margin-top: 5px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        font-size: 22px;
+        margin: 25px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        width: 15%;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .sobreNos{
+        font-size: 27px;
+    }
+
+    /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    background-color: #bedbd2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size:7px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #bedbd2 0%,
+        #bedbd2 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+    .grandes{
+        position: sticky !important;
+    }
+
+    @media(min-width:820px){
+
+        .renglonesAbajoDer{
+            font-size: 16px;
+        }
+
+        .renglones{
+            font-size: 22px;
+        }
+
+        .titIzqu{
+            font-size: 24px;
+        }
+
+        li{
+            font-size: 23px;
+        }
+
+        .textRed{
+            font-size: 35px;
+        }
+
+        .letritas{
+            font-size: 25px;
+        }
+
+        .preguntaInicio{
+            font-size: 25px;
+        }
+
+        .nav-links a{
+            font-size: 9px;
+        }
+    }
+
+    .footPeque{
+        display: none;
+    }
+
+    .ultimoDivPeque, .segundoDivPeque, .tercerDivPeque{
+        display: none;
+    }
+    
+    .peques{
+        display: none !important;
+    }
+}
+
+@media(min-width:992px) {
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .cont{
+        margin-top: 100px;
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        color: #f5efeb;
+        font-size: 150px;
+    }
+    
+    .primerDiv{
+        justify-items: center;
+        background-image: url("contactoFoto_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        overflow: hidden;
+    }
+    
+    .preguntaInicio{
+        border-radius: 100px;
+        background-color: #f3efed;
+        padding: 10px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 29px;
+        color: #2f4155;
+    }
+    
+    body{
+        background-color: #a8cbc092 !important;
+    }
+    
+    .separador{
+        display: flex;
+        width: 100%;
+    }
+    
+    .imgYText{
+        background-color: #f3efed;
+        font-family: 'Times New Roman', Times, serif;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+    
+    .imgRed{
+        width: 20%;
+    }
+    
+    .redes{
+        width: 50%;
+    }
+    
+    .telefono{
+        width: 50%;
+        display: flex;
+        background-color: #f3efed;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-content: end;
+    }
+    
+    .textRed{
+        width: 80%;
+        font-size: 39px;
+        color: #2f4155;
+        padding-left: 20px;
+        justify-content: end;
+    }
+    
+    .imgTel{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .letritas{
+        font-family: 'Times New Roman', Times, serif;
+        color: #2f4155;
+        font-size: 29px;
+    }
+    
+    .textPDer{
+        width: 70%;
+        justify-items: center;
+        margin-top: 50px;
+    }
+    
+    .segundoDiv, .tercerDiv, .ultimoDiv{
+        display: flex;
+    }
+    
+    .subFinales{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 220px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 39px;
+        color: #f3efed;
+    }
+    
+    .izqMapa{
+        width: 50%;
+        justify-items: center;
+    }
+    
+    .imgMap{
+        width: 45%;
+    }
+    
+    .renglones{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+    }
+    
+    .ubi{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: #f3efed;
+    }
+    
+    .izqFinal{
+        background-color: #f3efed;
+        width: 50%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    
+    .linee{
+        border-top: 3px solid #a8cbc092;
+        width: 85%;
+    }
+    
+    .horarioYLinea{
+        justify-items: center;
+    }
+    
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: #2f4155;
+    }
+    
+    .titIzqu{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 28px;
+        font-weight: bold;
+        color: #2f4155;
+    }
+    
+    .horarios{
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 29px;
+        color: #2f4155;
+    }
+    
+    .horariosPri{
+        display: flex;
+        justify-content: end;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 35px;
+        font-size: 24px;
+        color: #2f4155;
+    }
+    
+    .derFinal{
+        width: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .renglonesAbajoDer{
+        font-size: 19px;
+    }
+    
+    /*PARA EL FORMULARIO*/
+    
+    .formu{
+        background-color: #d6f5ebda !important;
+    }
+
+    .input-custom {
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+    
+    .input-custom:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+    
+    #botRegis:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+    
+    .formu {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    /* FOOTER */
+
+    .foot{
+        display: flex !important;
+        background-color: #a8cbc010;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        border-top: 2px solid black;
+        margin-top: 20px;
+    }
+    
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 420px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 25px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 25px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        width: 15%;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .sobreNos{
+        font-size: 40px;
+    }
+
+    /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    background-color: #bedbd2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */    
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #bedbd2 0%,
+        #bedbd2 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    position: sticky !important;
+}
+
+    /*Descartados, solamente útiles para pantallas pequeñas*/
+
+    .footPeque{
+        display: none;
+    }
+
+    .ultimoDivPeque, .segundoDivPeque, .tercerDivPeque{
+        display: none;
+    }
+
+    .peques{
+        display: none !important;
+    }
+}
+
+@media(min-width:1041px) and (max-width:1225px){
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .cont{
+        margin-top: 100px;
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        color: #f5efeb;
+        font-size: 150px;
+    }
+    
+    .primerDiv{
+        justify-items: center;
+        background-image: url("contactoFoto_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        overflow: hidden;
+    }
+    
+    .preguntaInicio{
+        border-radius: 100px;
+        background-color: #f3efed;
+        padding: 10px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #2f4155;
+    }
+    
+    body{
+        background-color: #a8cbc092 !important;
+    }
+    
+    .separador{
+        display: flex;
+        width: 100%;
+    }
+    
+    .imgYText{
+        background-color: #f3efed;
+        font-family: 'Times New Roman', Times, serif;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding: 10px 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+    
+    .imgRed{
+        width: 20%;
+    }
+    
+    .redes{
+        width: 50%;
+    }
+    
+    .telefono{
+        width: 50%;
+        display: flex;
+        background-color: #f3efed;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-content: end;
+    }
+    
+    .textRed{
+        width: 80%;
+        font-size: 42px;
+        color: #2f4155;
+        padding-left: 20px;
+        justify-content: end;
+    }
+    
+    .imgTel{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .letritas{
+        font-family: 'Times New Roman', Times, serif;
+        color: #2f4155;
+        font-size: 30px;
+    }
+    
+    .textPDer{
+        width: 70%;
+        justify-items: center;
+        margin-top: 50px;
+    }
+    
+    .segundoDiv, .tercerDiv, .ultimoDiv{
+        display: flex;
+    }
+    
+    .subFinales{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 220px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: #f3efed;
+    }
+    
+    .izqMapa{
+        width: 50%;
+        justify-items: center;
+    }
+    
+    .imgMap{
+        width: 45%;
+    }
+    
+    .renglones{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    
+    .ubi{
+        border-radius: 100px;
+        background-color: #2f4155;
+        padding: 10px 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: #f3efed;
+    }
+    
+    .izqFinal{
+        background-color: #f3efed;
+        width: 50%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    
+    .linee{
+        border-top: 3px solid #a8cbc092;
+        width: 85%;
+    }
+    
+    .horarioYLinea{
+        justify-items: center;
+    }
+    
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #2f4155;
+    }
+    
+    .titIzqu{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 30px;
+        font-weight: bold;
+        color: #2f4155;
+    }
+    
+    .horarios{
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #2f4155;
+    }
+    
+    .horariosPri{
+        display: flex;
+        justify-content: end;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 35px;
+        font-size: 25px;
+        color: #2f4155;
+    }
+    
+    .derFinal{
+        width: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .renglonesAbajoDer{
+        font-size: 20px;
+    }
+    
+    /*PARA EL FORMULARIO*/
+    
+    .formu{
+        background-color: #d6f5ebda !important;
+    }
+
+    .input-custom {
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+    
+    .input-custom:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+    
+    #botRegis:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+    
+    .formu {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    /* FOOTER */
+    .foot{
+        display: flex !important;
+        background-color: #a8cbc01b !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        border-top: 2px solid black;
+        margin-top: 20px;
+    }
+    
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 440px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 30px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 25px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+
+    .sobreNos{
+        font-size: 45px;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        width: 15%;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 45%;
+        margin-top: 15px;
+    }
+
+    /* BARRA DE NAVEGACIÓN */
+
+    .navbar {
+        background-color: #bedbd2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+        top: 0; /* Se mantiene pegada al tope de la página */
+        z-index: 1000;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 5px 10px;
+        width: 300px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+    }
+
+    .search-bar input {
+        border: none;
+        outline: none;
+        flex: 1;
+        font-size: 14px;
+        padding: 5px;
+        font-family: Arial, sans-serif;
+    }
+
+    .search-bar button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 0 5px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #2f4155;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+        text-decoration: underline;
+    }
+
+    /* Triángulos decorativos */
+    .navbar::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 30px;
+        background: repeating-linear-gradient(
+            135deg,
+            #bedbd2 0%,
+            #bedbd2 15px,
+            #2f4155 15px,
+            #2f4155 30px
+        );
+    }
+
+    .grandes{
+        position: sticky !important;
+    }
+
+
+    /*Descartados, solamente útiles para pantallas pequeñas*/
+    .footPeque{
+        display: none;
+    }
+
+    .ultimoDivPeque, .segundoDivPeque, .tercerDivPeque{
+        display: none;
+    }
+
+    .peques{
+        display: none !important;
+    }
+
+    @media (min-width:1137px){
+
+        .renBajos{
+            font-size: 18px !important;
+        }
+
+        .renglonesAbajoDer{
+            font-size: 22px;
+        }
+
+        .renglones{
+            font-size: 28px;
+        }
+
+        .titIzqu{
+            font-size: 32px;
+        }
+
+        li{
+            font-size: 32px;
+        }
+
+        .textRed{
+            font-size: 45px;
+        }
+
+        .letritas{
+            font-size: 35px;
+        }
+
+        .nav-links a{
+            font-size: 14px !important;
+        }
+    }
+}
+
+
+@media(min-width:1225px){
+.satisfy-regular {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cont{
+    margin-top: 100px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+    color: #f5efeb;
+    font-size: 150px;
+}
+
+.primerDiv{
+    justify-items: center;
+    background-image: url("contactoFoto_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.preguntaInicio{
+    border-radius: 100px;
+    background-color: #f3efed;
+    padding: 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #2f4155;
+}
+
+body{
+    background-color: #a8cbc092 !important;
+}
+
+.separador{
+    display: flex;
+    width: 100%;
+}
+
+.imgYText{
+    background-color: #f3efed;
+    font-family: 'Times New Roman', Times, serif;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 10px 0px;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.imgRed{
+    width: 20%;
+}
+
+.redes{
+    width: 50%;
+}
+
+.telefono{
+    width: 50%;
+    display: flex;
+    background-color: #f3efed;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    justify-content: end;
+}
+
+.textRed{
+    width: 80%;
+    font-size: 55px;
+    color: #2f4155;
+    padding-left: 20px;
+    justify-content: end;
+}
+
+.imgTel{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.letritas{
+    font-family: 'Times New Roman', Times, serif;
+    color: #2f4155;
+    font-size: 40px;
+}
+
+.textPDer{
+    width: 70%;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.segundoDiv, .tercerDiv, .ultimoDiv{
+    display: flex;
+}
+
+.subFinales{
+    border-radius: 100px;
+    background-color: #2f4155;
+    padding: 10px 220px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #f3efed;
+}
+
+.izqMapa{
+    width: 50%;
+    justify-items: center;
+}
+
+.imgMap{
+    width: 45%;
+}
+
+.renglones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.ubi{
+    border-radius: 100px;
+    background-color: #2f4155;
+    padding: 10px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #f3efed;
+}
+
+.izqFinal{
+    background-color: #f3efed;
+    width: 50%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.linee{
+    border-top: 3px solid #a8cbc092;
+    width: 85%;
+}
+
+.horarioYLinea{
+    justify-items: center;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #2f4155;
+}
+
+.titIzqu{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;
+    font-weight: bold;
+    color: #2f4155;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #2f4155;
+}
+
+.horariosPri{
+    display: flex;
+    justify-content: end;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 35px;
+    font-size: 25px;
+    color: #2f4155;
+}
+
+.derFinal{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.renglonesAbajoDer{
+    font-size: 24px;
+}
+
+/*PARA EL FORMULARIO*/
+
+.formu{
+    background-color: #d6f5ebda !important;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.campo input,
+.campo textarea {
+    border: 2px solid #2f4155;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.campo textarea {
+    resize: none;
+}
+
+.input-custom {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-custom:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+#botRegis:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.formu {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* FOOTER */
+.foot{
+    display: flex !important;
+    background-color: #a8cbc015;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+
+/*ESTILO*/
+.izq-style{
+    background-color: #2f4155;
+    color: #f5efeb;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/*DISEÑO*/
+.izq-design{
+    max-height: 700px;
+    height: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 45%;
+}
+
+.textFormIzq{
+    justify-content: center; 
+    display: flex; 
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.renBajos{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.mb-3{
+    width: 85% !important;
+    margin: 0px 15px;
+    border-radius: 100px !important;
+    margin-top: 20px;
+}
+
+.cen{
+    margin-top: 35px;
+    justify-items: center;
+    width: 40%;
+}
+
+.nuestraInfo{
+    margin: 40px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+}
+
+.line{
+    border-top: 3px solid #2f4155;
+    width: 85%;
+}
+
+/*DISEÑO*/
+.der-design{
+    width: 15%;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/*COMPORTAMIENTO*/
+.der-behavior{
+    display: flex;
+}
+
+.iconosRedes{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.sobreNos{
+    font-size: 45px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar {
+    background-color: #bedbd2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Enlaces de navegación */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #bedbd2 0%,
+        #bedbd2 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    position: sticky !important;
+}
+
+/*Descartados, solamente útiles para pantallas pequeñas*/
+.footPeque{
+    display: none;
+}
+
+.ultimoDivPeque, .segundoDivPeque, .tercerDivPeque{
+    display: none;
+}
+
+.peques{
+    display: none !important;
+}
+
+}

@@ -1,0 +1,2651 @@
+/*Mobile first vertical */
+@media(max-width:575px){
+    /*ESTILO*/
+    .sec1-style{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    /*DISEÑO*/
+    .sec1-design{
+        flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+        justify-content: center; /* Centra verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        height: 100%; /* Asegura que la sección ocupe toda la altura del contenedor padre */
+        padding-top: 10px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .sec1-position{
+        position: relative;
+        z-index: 2; /* Asegura que el texto esté encima */
+    }
+
+    /*COMPORTAMIENTO*/
+    .sec1-behavior{
+        display: flex;
+    }
+
+    /*ESTILO*/
+    .botonInicial-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        font-size: 15px;
+        text-shadow: 1px 1px black;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+        border: none; 
+    }
+
+    /*DISEÑO*/
+    .botonInicial-design{
+        margin-bottom: 10px;
+        padding: 15px 25px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonInicial-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .bF{
+        justify-items: center;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .sec2{
+        display: flex;
+        background-color: #c8d9e6;
+    }
+    
+    .sec3{
+        display: flex;
+        display: none;
+    }
+
+    .dosArriba, .dosAbajo{
+        display: flex;
+    }
+    
+    .letritas{
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 2px black;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .pantallaRosada {
+        position: relative;
+        background-image: url("VISTA_HERMOSA_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        overflow: hidden;
+    }
+    
+
+    .pantallaRosada::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }
+    
+    .formaBeige{
+        background-color: #f5efeb;
+        width: 45%;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        display: none;
+    }
+    
+    .lor{
+        color: #274257;
+    }
+    
+    .textYForma{
+        justify-items: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titSec2{
+        font-size: 25px; 
+        color: #2f4155;
+        display: none;
+    }
+
+    .titSec2Peque{
+        font-size: 22px; 
+        color: #2f4155;
+        text-shadow: 1px 1px #f5efeb;
+    }
+    
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+    .fotoFact{
+        width: 20%;
+        max-height: 700px;
+        display: none;
+    }
+    
+    .renglones{
+        color: #2f4155;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        display: none;
+    }
+
+    .renglonesPeque{
+        color: #2f4155;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        margin: 0px 20px;
+    }
+    
+    .menu{
+        position: relative;
+        background-image: url("MENU_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    /*.menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }*/
+    
+    .nosotros{
+        position: relative;
+        background-image: url("NOSOTROS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .reservas{
+        position: relative;
+        background-image: url("RESERVAS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .contacto{
+        position: relative;
+        background-image: url("CONTACTO_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .capaNegra{
+        justify-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: relative;
+        z-index: 2; /*Texto por encima*/
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding-top: 10px;
+    }
+    
+    /*ESTILO*/
+    .botonOpciones-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        border: none; 
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpciones-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpciones-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpciones-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    /*ESTILO*/
+    .botonOpcionesBlue-style{
+        border-radius: 100px;
+        background-color: #f5efeb;
+        color: #2f4155;
+        border: none;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpcionesBlue-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpcionesBlue-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpcionesBlue-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .foot{
+        /*display: flex !important;*/
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        display: none;
+    }
+
+    .footPeque{
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+    
+    .izq{
+        background-color: #2f4155;
+        width: 42%;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        color: #f5efeb;
+        height: 420px;
+        display: none;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 10px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 25px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        justify-content: space-around;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 10%;
+    }
+    
+    /* PONER LAS LETRAS EN VERTICAL (Funcionó, pero se descartó la idea)
+    .vertical-container {
+        height: 200px;
+        margin-bottom: 190px;
+    }
+    
+    .vertical-text {
+        margin: 0px;
+        text-orientation: upright;
+        transform: rotate(270deg);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 19px;
+        width: 100%;
+        text-shadow: 1px 1px  rgb(178, 175, 175);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    */
+
+    .sobreNos{
+        font-size: 25px;
+    }
+
+    /* BARRA DE NAVEGACIÓN */
+.navbar {
+    background-color: #c8d9e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Botón menú hamburguesa */
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #2f4155;
+    display: none; /* Oculto por defecto */
+}
+
+/* Menú desplegable */
+.nav-menu {
+    display: none; /* Oculto por defecto en móviles */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #c8d9e6;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-menu.active {
+    display: flex; /* Visible cuando se activa */
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #c8d9e6 0%,
+        #c8d9e6 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    display: none !important;
+}
+    
+}
+
+/*Tabletas */
+@media (min-width:768px) and (max-width:992px){
+    /*ESTILO*/
+    .sec1-style{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    /*DISEÑO*/
+    .sec1-design{
+        flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+        justify-content: center; /* Centra verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        height: 100%; /* Asegura que la sección ocupe toda la altura del contenedor padre */
+        padding-top: 10px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .sec1-position{
+        position: relative;
+        z-index: 2; /* Asegura que el texto esté encima */
+    }
+
+    /*COMPORTAMIENTO*/
+    .sec1-behavior{
+        display: flex;
+    }
+
+    /*ESTILO*/
+    .botonInicial-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+        border: none; 
+    }
+
+    /*DISEÑO*/
+    .botonInicial-design{
+        margin-bottom: 10px;
+        padding: 15px 25px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonInicial-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .bF{
+        justify-items: center;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .sec2{
+        display: flex;
+        background-color: #c8d9e6;
+    }
+    
+    .sec3{
+        display: none;
+    }
+
+    .dosArriba, .dosAbajo{
+        display: flex;
+    }
+    
+    .letritas{
+        color: white;
+        font-size: 25px;
+        text-shadow: 1px 2px black;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+
+
+    /*.pantallaRosada{
+        position: relative;
+        background-image: url("../img/VISTA_HERMOSA_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        overflow: hidden;
+    }*/
+    
+    .pantallaRosada {
+        position: relative;
+        background-image: url("VISTA_HERMOSA_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        overflow: hidden;
+    }
+    
+
+    .pantallaRosada::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }
+    
+    /*ESTILO*/
+    .formaBeige-style{
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        background-color: #f5efeb;
+    }
+
+    /*DISEÑO*/
+    .formaBeige-design{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        width: 40%;
+    }
+    
+    .lor{
+        color: #274257;
+    }
+    
+    .textYForma{
+        align-items: end !important;
+        justify-content: end !important;
+        justify-items: end !important;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        width: 40%;
+    }
+    
+    .titSec2{
+        font-size: 40px; 
+        color: #2f4155;
+    }
+
+    .titSec2Peque{
+        font-size: 22px; 
+        color: #2f4155;
+        text-shadow: 1px 1px #f5efeb;
+        display: none;
+    }
+    
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+    .fotoFact{
+        width: 20%;
+        max-height: 700px;
+    }
+    
+    .renglones{
+        color: #2f4155;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .renglonesPeque{
+        color: #2f4155;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        display: none;
+    }
+    
+    .menu{
+        position: relative;
+        background-image: url("MENU_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    /*.menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }*/
+    
+    .nosotros{
+        position: relative;
+        background-image: url("NOSOTROS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .reservas{
+        position: relative;
+        background-image: url("RESERVAS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .contacto{
+        position: relative;
+        background-image: url("CONTACTO_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .capaNegra{
+        justify-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: relative;
+        z-index: 2; /*Texto por encima*/
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding-top: 10px;
+    }
+    
+    /*ESTILO*/
+    .botonOpciones-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        border: none; 
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpciones-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpciones-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpciones-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    /*ESTILO*/
+    .botonOpcionesBlue-style{
+        border-radius: 100px;
+        background-color: #f5efeb;
+        color: #2f4155;
+        border: none;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpcionesBlue-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpcionesBlue-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpcionesBlue-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .foot{
+        display: flex !important;
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+
+    .footPeque{
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+        display: none;
+    }
+    
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+
+    @media(min-width:820px){
+        .izq{
+            height: 360px;
+        }
+
+        .textFormIzq{
+            font-size: 25px;
+        }
+
+        .renBajos{
+            font-size: 13px;
+        }
+
+        .renglones{
+            font-size: 18px;
+        }
+    }
+    
+
+    @media(min-width:890px){
+        .renglones{
+            font-size: 20px;
+        }
+    }
+
+    @media(min-width:940px){
+        .renglones{
+            font-size: 21px;
+        }
+    }
+
+    .mb-3{
+        width: 80% !important;
+        margin: 0px 15px;
+        margin-top: 5px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        font-size: 22px;
+        margin: 25px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        width: 15%;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 40%;
+        margin-top: 20px;
+    }
+    
+    /* PONER LAS LETRAS EN VERTICAL (Funcionó, pero se descartó la idea)
+    .vertical-container {
+        height: 200px;
+        margin-bottom: 190px;
+    }
+    
+    .vertical-text {
+        margin: 0px;
+        text-orientation: upright;
+        transform: rotate(270deg);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 19px;
+        width: 100%;
+        text-shadow: 1px 1px  rgb(178, 175, 175);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    */
+
+    /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    background-color: #c8d9e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size:7px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #c8d9e6 0%,
+        #c8d9e6 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+    .sobreNos{
+        font-size: 27px;
+    }
+
+    .peques{
+        display: none !important;
+    }
+
+    @media (min-width:890px){
+        .renBajos{
+            font-size: 14px;
+        }
+
+        .nav-links a{
+            font-size: 10px;
+        }
+    }
+
+    .grandes{
+        position: sticky !important;
+    }
+}
+
+
+/*Escritorios normales */
+@media (min-width:992px){
+
+    /*ESTILO*/
+    .sec1-style{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    /*DISEÑO*/
+    .sec1-design{
+        flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+        justify-content: center; /* Centra verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        height: 100%; /* Asegura que la sección ocupe toda la altura del contenedor padre */
+        padding-top: 10px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .sec1-position{
+        position: relative;
+        z-index: 2; /* Asegura que el texto esté encima */
+    }
+
+    /*COMPORTAMIENTO*/
+    .sec1-behavior{
+        display: flex;
+    } 
+    
+    /*ESTILO*/
+    .botonInicial-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        font-size: 30px;
+        text-shadow: 1px 1px black;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+        border: none; 
+    }
+
+    /*DISEÑO*/
+    .botonInicial-design{
+        padding: 15px 25px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonInicial-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonInicial:hover {
+        background-color: #f5efeb;
+        transform: translateY(-2px);
+        color: #2f4155;
+    }
+    
+    .botonInicial:active {
+        transform: translateY(0);
+    }
+    
+    .bF{
+        justify-items: center;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .sec2{
+        display: flex;
+        background-color: #c8d9e6;
+    }
+    
+    .sec3{
+        display: flex;
+    }
+    
+    .letritas{
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 2px black;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .pantallaRosada{
+        position: relative;
+        background-image: url("VISTA_HERMOSA_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        overflow: hidden;
+    }
+    
+    .pantallaRosada::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }
+    
+    /*ESTILO*/
+    .formaBeige-style{
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        background-color: #f5efeb;
+    }
+
+    /*DISEÑO*/
+    .formaBeige-design{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        width: 40%;
+    }
+    
+    .lor{
+        color: #274257;
+    }
+    
+    .textYForma{
+        justify-items: end;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        align-items: end;
+        justify-content: end;
+        width: 40%;
+    }
+    
+    .titSec2{
+        font-size: 62px; 
+        color: #2f4155;
+    }
+    
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+    .fotoFact{
+        width: 20%;
+        max-height: 700px;
+    }
+    
+    .renglones{
+        color: #2f4155;
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .menu{
+        position: relative;
+        background-image: url("MENU_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    /*.menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }*/
+    
+    .nosotros{
+        position: relative;
+        background-image: url("NOSOTROS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .reservas{
+        position: relative;
+        background-image: url("RESERVAS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .contacto{
+        position: relative;
+        background-image: url("CONTACTO_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .capaNegra{
+        justify-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: relative;
+        z-index: 2; /*Texto por encima*/
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding-top: 10px;
+    }
+    
+    /*ESTILO*/
+    .botonOpciones-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        border: none;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpciones-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpciones-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpciones-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonOpciones:hover {
+        background-color: #f5efeb;
+        transform: translateY(-2px);
+        color: #2f4155;
+    }
+    
+    .botonOpciones:active {
+        transform: translateY(0);
+    }
+    
+    /*ESTILO*/
+    .botonOpcionesBlue-style{
+        border-radius: 100px;
+        background-color: #f5efeb;
+        color: #2f4155;
+        border: none;
+        font-size: 30px;
+        text-shadow: 2px 2px 5px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpcionesBlue-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpcionesBlue-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpcionesBlue-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonOpcionesBlue:hover {
+        background-color: #2f4155;
+        transform: translateY(-2px);
+        color: #f5efeb;
+    }
+    
+    .botonOpcionesBlue:active {
+        transform: translateY(0);
+    }
+    
+    .foot{
+        display: flex !important;
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+    
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 420px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 25px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 25px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+    
+    /*DISEÑO*/
+    .der-design{
+        width: 15%;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .der-behavior{
+        display: flex;
+    }
+    
+    .iconosRedes{
+        width: 50%;
+        margin-top: 15px;
+    }
+    
+    /* PONER LAS LETRAS EN VERTICAL (Funcionó, pero se descartó la idea)
+    .vertical-container {
+        height: 200px;
+        margin-bottom: 190px;
+    }
+    
+    .vertical-text {
+        margin: 0px;
+        text-orientation: upright;
+        transform: rotate(270deg);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 19px;
+        width: 100%;
+        text-shadow: 1px 1px  rgb(178, 175, 175);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    */
+
+    .sobreNos{
+        font-size: 40px;
+    }
+
+
+    /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    background-color: #c8d9e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */    
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #c8d9e6 0%,
+        #c8d9e6 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    position: sticky !important;
+}
+
+    /*Descartados, solamente útiles para pantallas pequeñas*/
+    .titSec2Peque{
+        display: none;
+    }
+
+    .renglonesPeque{
+        display: none;
+    }
+
+    .sec33{
+        display: none;
+    }
+
+    .footPeque{
+        display: none !important;
+    }
+
+    .peques{
+        display: none !important;
+    }
+}
+
+/*@media (min-width:1153px)*/
+
+@media (min-width:1041px) and (max-width:1201px){
+    /*ESTILO*/
+    .sec1-style{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    /*DISEÑO*/
+    .sec1-design{
+        flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+        justify-content: center; /* Centra verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        height: 100%; /* Asegura que la sección ocupe toda la altura del contenedor padre */
+        padding-top: 10px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .sec1-position{
+        position: relative;
+        z-index: 2; /* Asegura que el texto esté encima */
+    }
+
+    /*COMPORTAMIENTO*/
+    .sec1-behavior{
+        display: flex;
+    }  
+    
+    /*ESTILO*/
+    .botonInicial-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        font-size: 30px;
+        text-shadow: 1px 1px black;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+        border: none; 
+    }
+
+    /*DISEÑO*/
+    .botonInicial-design{
+        padding: 15px 25px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonInicial-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonInicial:hover {
+        background-color: #f5efeb;
+        transform: translateY(-2px);
+        color: #2f4155;
+    }
+    
+    .botonInicial:active {
+        transform: translateY(0);
+    }
+    
+    .bF{
+        justify-items: center;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .sec2{
+        display: flex;
+        background-color: #c8d9e6;
+    }
+    
+    .sec3{
+        display: flex;
+    }
+    
+    .letritas{
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 2px black;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .pantallaRosada{
+        position: relative;
+        background-image: url("VISTA_HERMOSA_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        overflow: hidden;
+    }
+    
+    .pantallaRosada::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }
+    
+    /*ESTILO*/
+    .formaBeige-style{
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        background-color: #f5efeb;
+    }
+
+    /*DISEÑO*/
+    .formaBeige-design{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        max-height: 700px;
+        width: 40%;
+    }
+    
+    .lor{
+        color: #274257;
+    }
+    
+    .textYForma{
+        justify-items: end;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        align-items: end;
+        justify-content: end;
+        width: 40%;
+    }
+    
+    .titSec2{
+        font-size: 62px; 
+        color: #2f4155;
+    }
+    
+    .satisfy-regular {
+        font-family: "Satisfy", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+    .fotoFact{
+        width: 20%;
+        max-height: 700px;
+    }
+    
+    .renglones{
+        color: #2f4155;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    @media (min-width:1137px){
+        .renglones{
+            font-size: 26px;
+        }
+
+        .renBajos{
+            font-size: 18px !important;
+        }
+
+        .nav-links a{
+            font-size: 14px !important;
+        }
+    }
+    
+    .menu{
+        position: relative;
+        background-image: url("MENU_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    /*.menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: inherit;
+        background-size: inherit;
+        background-position: inherit;
+        filter: blur(3px);
+        z-index: 1;
+    }*/
+    
+    .nosotros{
+        position: relative;
+        background-image: url("NOSOTROS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .reservas{
+        position: relative;
+        background-image: url("RESERVAS_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .contacto{
+        position: relative;
+        background-image: url("CONTACTO_Def.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .capaNegra{
+        justify-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: relative;
+        z-index: 2; /*Texto por encima*/
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding-top: 10px;
+    }
+    
+    /*ESTILO*/
+    .botonOpciones-style{
+        border-radius: 100px;
+        background-color: #2f4155;
+        color: #f5efeb;
+        border: none; 
+        text-shadow: 2px 2px 5px black;
+        font-size: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpciones-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpciones-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpciones-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonOpciones:hover {
+        background-color: #f5efeb;
+        transform: translateY(-2px);
+        color: #2f4155;
+    }
+    
+    .botonOpciones:active {
+        transform: translateY(0);
+    }
+    
+    /*ESTILO*/
+    .botonOpcionesBlue-style{
+        border-radius: 100px;
+        background-color: #f5efeb;
+        color: #2f4155;
+        border: none; 
+        text-shadow: 2px 2px 5px black;
+        font-size: 30px;
+        text-shadow: 1px 1px black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    }
+
+    /*DISEÑO*/
+    .botonOpcionesBlue-design{
+        margin-top: 250px;
+        padding: 15px 25px;
+    }
+
+    /*POSICIONAMIENTO*/
+    .botonOpcionesBlue-position{
+        z-index: 3;
+    }
+
+    /*COMPORTAMIENTO*/
+    .botonOpcionesBlue-behavior{
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s; /*Transición*/
+    }
+    
+    .botonOpcionesBlue:hover {
+        background-color: #2f4155;
+        transform: translateY(-2px);
+        color: #f5efeb;
+    }
+    
+    .botonOpcionesBlue:active {
+        transform: translateY(0);
+    }
+    
+    .foot{
+        display: flex !important;
+        background-color: #c8d9e6;
+        padding-top: 10px !important;
+        padding-bottom: 10px;
+    }
+
+    /*ESTILO*/
+    .izq-style{
+        background-color: #2f4155;
+        color: #f5efeb;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    /*DISEÑO*/
+    .izq-design{
+        max-height: 700px;
+        height: 440px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    
+    .textFormIzq{
+        justify-content: center; 
+        display: flex; 
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .renBajos{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px 15px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    
+    .mb-3{
+        width: 85% !important;
+        margin: 0px 15px;
+        border-radius: 100px !important;
+        margin-top: 30px;
+    }
+    
+    .cen{
+        margin-top: 35px;
+        justify-items: center;
+        width: 40%;
+    }
+    
+    .nuestraInfo{
+        margin: 30px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px black;
+        font-size: 25px;
+    }
+    
+    .line{
+        border-top: 3px solid #2f4155;
+        width: 85%;
+    }
+
+    .sobreNos{
+        font-size: 45px;
+    }
+    
+    /*DISEÑO*/
+    .boton-design{
+        width: 100%;
+        padding: 10px;
+    }
+
+    /*COMPORTAMIENTO*/
+    .boton-behavior{
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .iconosRedes{
+        width: 45%;
+        margin-top: 15px;
+    }
+    
+    /* PONER LAS LETRAS EN VERTICAL (Funcionó, pero se descartó la idea)
+    .vertical-container {
+        height: 200px;
+        margin-bottom: 190px;
+    }
+    
+    .vertical-text {
+        margin: 0px;
+        text-orientation: upright;
+        transform: rotate(270deg);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 19px;
+        width: 100%;
+        text-shadow: 1px 1px  rgb(178, 175, 175);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    */
+
+    /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    background-color: #c8d9e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #c8d9e6 0%,
+        #c8d9e6 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    position: sticky !important;
+}
+
+
+    /*Descartados, solamente útiles para pantallas pequeñas*/
+    .titSec2Peque{
+        display: none;
+    }
+
+    .renglonesPeque{
+        display: none;
+    }
+
+    .sec33{
+        display: none;
+    }
+
+    .footPeque{
+        display: none !important;;
+    }
+
+    .peques{
+        display: none !important;
+    }
+}
+
+
+/*Pantallas grandes */
+@media (min-width:1201px){
+
+/*ESTILO*/
+.sec1-style{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*DISEÑO*/
+.sec1-design{
+    flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100%; /* Asegura que la sección ocupe toda la altura del contenedor padre */
+    padding-top: 10px;
+}
+
+/*POSICIONAMIENTO*/
+.sec1-position{
+    position: relative;
+    z-index: 2; /* Asegura que el texto esté encima */
+}
+
+/*COMPORTAMIENTO*/
+.sec1-behavior{
+    display: flex;
+} 
+
+/*ESTILO*/
+.botonInicial-style{
+    border-radius: 100px;
+    background-color: #2f4155;
+    color: #f5efeb;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    border: none; 
+}
+
+/*DISEÑO*/
+.botonInicial-design{
+    padding: 15px 25px;
+}
+
+/*COMPORTAMIENTO*/
+.botonInicial-behavior{
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; /*Transición*/
+}
+
+.botonInicial:hover {
+    background-color: #f5efeb;
+    transform: translateY(-2px);
+    color: #2f4155;
+}
+
+.botonInicial:active {
+    transform: translateY(0);
+}
+
+.bF{
+    justify-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.sec2{
+    display: flex;
+    background-color: #c8d9e6;
+}
+
+.sec3{
+    display: flex;
+}
+
+.letritas{
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 2px black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pantallaRosada{
+    position: relative;
+    background-image: url("VISTA_HERMOSA_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.pantallaRosada::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    filter: blur(3px);
+    z-index: 1;
+}
+
+/*ESTILO*/
+.formaBeige-style{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #f5efeb;
+}
+
+/*DISEÑO*/
+.formaBeige-design{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    max-height: 700px;
+    width: 40%;
+}
+
+.lor{
+    color: #274257;
+}
+
+.textYForma{
+    justify-items: end;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.titSec2{
+    font-size: 62px; 
+    color: #2f4155;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.fotoFact{
+    width: 20%;
+    max-height: 700px;
+}
+
+.renglones{
+    color: #2f4155;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    position: relative;
+    background-image: url("MENU_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    filter: blur(3px);
+    z-index: 1;
+}*/
+
+.nosotros{
+    position: relative;
+    background-image: url("NOSOTROS_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.reservas{
+    position: relative;
+    background-image: url("RESERVAS_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contacto{
+    position: relative;
+    background-image: url("CONTACTO_Def.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.capaNegra{
+    justify-items: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 2; /*Texto por encima*/
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/*ESTILO*/
+.botonOpciones-style{
+    border-radius: 100px;
+    background-color: #2f4155;
+    color: #f5efeb;
+    border: none; 
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+}
+
+/*DISEÑO*/
+.botonOpciones-design{
+    margin-top: 250px;
+    padding: 15px 25px;
+}
+
+/*POSICIONAMIENTO*/
+.botonOpciones-position{
+    z-index: 3;
+}
+
+/*COMPORTAMIENTO*/
+.botonOpciones-behavior{
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; /*Transición*/
+}
+
+.botonOpciones:hover {
+    background-color: #f5efeb;
+    transform: translateY(-2px);
+    color: #2f4155;
+}
+
+.botonOpciones:active {
+    transform: translateY(0);
+}
+
+/*ESTILO*/
+.botonOpcionesBlue-style{
+    border-radius: 100px;
+    background-color: #f5efeb;
+    color: #2f4155;
+    border: none; 
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+}
+
+/*DISEÑO*/
+.botonOpcionesBlue-design{
+    margin-top: 250px;
+    padding: 15px 25px;
+}
+
+/*POSICIONAMIENTO*/
+.botonOpcionesBlue-position{
+    z-index: 3;
+}
+
+/*COMPORTAMIENTO*/
+.botonOpcionesBlue-behavior{
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; /*Transición*/
+}
+
+.botonOpcionesBlue:hover {
+    background-color: #2f4155;
+    transform: translateY(-2px);
+    color: #f5efeb;
+}
+
+.botonOpcionesBlue:active {
+    transform: translateY(0);
+}
+
+.foot{
+    display: flex !important;
+    background-color: #c8d9e6;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+}
+
+/*ESTILO*/
+.izq-style{
+    background-color: #2f4155;
+    color: #f5efeb;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/*DISEÑO*/
+.izq-design{
+    max-height: 700px;
+    height: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 45%;
+}
+
+.textFormIzq{
+    justify-content: center; 
+    display: flex; 
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.renBajos{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.mb-3{
+    width: 85% !important;
+    margin: 0px 15px;
+    border-radius: 100px !important;
+    margin-top: 20px;
+}
+
+.cen{
+    margin-top: 35px;
+    justify-items: center;
+    width: 40%;
+}
+
+.nuestraInfo{
+    margin: 40px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px black;
+    font-size: 25px;
+}
+
+.line{
+    border-top: 3px solid #2f4155;
+    width: 85%;
+}
+
+/*DISEÑO*/
+.der-design{
+    width: 15%;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/*COMPORTAMIENTO*/
+.der-behavior{
+    display: flex;
+}
+
+.iconosRedes{
+    width: 50%;
+    margin-top: 10px;
+}
+
+/* PONER LAS LETRAS EN VERTICAL (Funcionó, pero se descartó la idea)
+.vertical-container {
+    height: 200px;
+    margin-bottom: 190px;
+}
+
+.vertical-text {
+    margin: 0px;
+    text-orientation: upright;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 19px;
+    width: 100%;
+    text-shadow: 1px 1px  rgb(178, 175, 175);
+    font-family: 'Times New Roman', Times, serif;
+}
+*/
+
+.sobreNos{
+    font-size: 45px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar {
+    background-color: #c8d9e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky; /* Hace que la barra se mantenga visible al hacer scroll */
+    top: 0; /* Se mantiene pegada al tope de la página */
+    z-index: 1000;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Añade sombra para mejor visibilidad */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Enlaces de navegación */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2f4155;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1d2e3f; /* Cambia a un tono más oscuro al pasar el cursor */
+    text-decoration: underline;
+}
+
+/* Triángulos decorativos */
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #c8d9e6 0%,
+        #c8d9e6 15px,
+        #2f4155 15px,
+        #2f4155 30px
+    );
+}
+
+.grandes{
+    position: sticky !important;
+}
+
+
+
+
+/*Descartados, solamente útiles para pantallas pequeñas*/
+.titSec2Peque{
+    display: none;
+}
+
+.renglonesPeque{
+    display: none;
+}
+
+.sec33{
+    display: none;
+}
+
+.footPeque{
+    display: none !important;;
+}
+
+.peques{
+    display: none !important;
+}
+}
