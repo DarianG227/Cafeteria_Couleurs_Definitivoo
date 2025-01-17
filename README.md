@@ -68,7 +68,7 @@ A continuación, se presentan algunas capturas de pantalla del proyecto:
 
 ## Enlace al proyecto: 
 
-Puedes visitar la versión en vivo del proyecto en el siguiente enlace: 
+Puedes visitar la versión en vivo del proyecto en el siguiente enlace:  https://dariang227.github.io/Cafeteria_Couleurs_Definitivoo/
 
 
 ## Autores
